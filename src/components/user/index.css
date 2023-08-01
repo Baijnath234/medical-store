@@ -1,0 +1,204 @@
+*{
+    /* border: 1px solid; */
+    margin-top: 0px;
+}
+
+.main-content1{
+    display: flex;
+    align-items: center;
+    margin-top: 110px;
+    overflow: hidden ;
+   
+  }
+  
+    .header{
+      width: 600px;
+      height: 50px;
+      background-color: lightyellow;
+      border: 1px solid rgba(0, 0, 0, 0.116);
+      border-radius: 30px ;
+      margin-left: 10px;
+      display: flex;
+      align-items: center;
+  }
+  
+  .header > button{
+      width: 100px;
+      height: 35px;
+      margin-left: 10px;
+      border-radius: 20px;
+      background-color: rgb(170, 11, 11);
+      border: 1px solid white;
+      color: white;
+      font-weight: 500;
+  }
+  
+  .header > a{
+      margin-left: 10px;
+      font-weight: 600; 
+      text-decoration: underline;
+  }
+  
+  .from {
+    display: flex;
+    align-items: center;
+  }
+
+.main-content2{
+    padding: 10px;
+}
+
+.main-container{
+    background-image: url(../../images/background4.jpg);
+    background-position: fixed;
+    overflow: hidden;
+    border-radius: 10px;
+    width: 100%;
+    max-height: 100%;
+}
+
+.main-container h1{
+    font-weight: 800;
+    font-size: 70px;
+    margin-left: 50px;
+}
+
+span{
+    color: #018a23;
+}
+
+.second-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10PX;
+    padding: 0px 10px 10px;
+}
+
+.second-container .card{
+    background-size: 400px;
+    backface-visibility: 0.7;
+    width: 400px;
+    padding: 10px; 
+    border-radius: 10px;
+    box-shadow: 5px 10 px 10px 5px #2e2d2d;
+    position: static;
+
+}
+
+.card h3 p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card button{
+    background-color: #013f11;
+    color: aliceblue;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+
+.main-content3{
+    padding: 10px;
+    
+}
+
+.main-container2{
+    background-image: url(../../images/background1.jpg);
+    border-radius: 10px;
+    width: 100%;
+    max-height: 100vh;
+    padding: 10px;
+}
+
+.main-container2  img {
+    width: 700px;
+    height: 400px;
+    margin: 50px;
+    margin-left: 80px;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px 5px rgb(49, 48, 48) ;
+}
+
+.main-container2 h2 {
+    margin-right: 80px;
+    margin-top: 80px;
+    text-shadow: 0px 5px 15px  black;
+}
+
+.main-container2 p{
+    margin-right: 80px;
+    margin-top: 20px;
+}
+
+.main-container2 button{
+    background-color: #013f11;
+    color: white;
+    padding: 10px;
+    border: 1px solid white;
+    border-radius: 5px;
+    box-shadow: 0 5px 10px 5px #013f11;
+}
+
+.main-container2 .card {
+    background-color: azure;
+    margin: 50px;
+    border: 1px solid #013f11;
+    box-shadow: 5px 5px 10px 2px #013f11;
+    position: static;
+}
+
+.main-card{
+    display: flex;
+}
+
+.main-card form{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    margin: 30px;
+}
+
+.main-card label{
+    color: #013f11;
+    font-weight: 600;
+}
+
+.main-card input{
+    width: 150%;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid rgb(99, 96, 96);
+}
+
+.main-card button{
+    width: 200%;
+    margin-top: 20px;
+}
+
+.main-card .background-image{
+    padding: 5px;
+    margin-top: 100px;
+    width: 180px;
+    height: 200px;
+    box-shadow: none;
+}
+
+.email-details form{
+    display: flex;
+    flex-direction: column;
+}
+
+.email-details label{
+    font-weight: 500;
+}
+
+.email-details input{
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid rgb(56, 54, 54);
+}
+
+
+
